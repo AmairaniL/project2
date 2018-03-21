@@ -12,12 +12,12 @@ html {
 }
 
 h1 {
-	font-family: 'Comic Sans MS', cursive, sans-serif;
-	color: #000066; /*navy blue*/ 
-	text-align: center;
-	width: 50%;
-	margin: auto;
-    padding-top: 1.333em;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #000066; /*navy blue*/ 
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 1.333em;
 }
 
 #navigation ul,
@@ -31,28 +31,28 @@ h1 {
 }
 
 body {
-	background-color: #8FB2FF; /*sky blue*/ 
-	background-size: 1800px 900px;
-	background-repeat: repeat;
-	margin:0;
+  background-color: #8FB2FF; /*sky blue*/ 
+  background-size: 1800px 900px;
+  background-repeat: repeat;
+  margin:0;
 }
 
 body.homepg {
-    background-image: url("../media/water.jpg");
-	background-size: 1800px 900px;
-	background-repeat: repeat;
-	margin:0;
+  background-image: url("../media/water.jpg");
+  background-size: 1800px 900px;
+  background-repeat: repeat;
+  margin:0;
 }
 
 body.bkpg {
-	background-color: #CCCCFF; /*lilac*/ 
-	background-size: 1800px 900px;
-	background-repeat: repeat;
-	margin:0;
+  background-color: #CCCCFF; /*lilac*/ 
+  background-size: 1800px 900px;
+  background-repeat: repeat;
+  margin:0;
 }
 
 body.respg{
-	background-size: 1800px 900px;
-	background-repeat: repeat;
-	margin:0;
+  background-size: 1800px 900px;
+  background-repeat: repeat;
+  margin:0;
 }
