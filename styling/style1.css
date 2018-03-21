@@ -1,0 +1,26 @@
+body {
+	background-color: #FFF5C2;
+	background-size: 1800px 900px;
+	background-repeat: repeat;
+	margin:0;
+}
+
+body.homepg {
+    background-image: url("../media/water.jpg");
+	background-size: 1800px 900px;
+	background-repeat: repeat;
+	margin:0;
+}
+
+body.bkpg {
+	background-color: #CCCCFF;
+	background-size: 1800px 900px;
+	background-repeat: repeat;
+	margin:0;
+}
+
+body.respg{
+	background-size: 1800px 900px;
+	background-repeat: repeat;
+	margin:0;
+}
