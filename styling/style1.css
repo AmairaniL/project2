@@ -1,5 +1,37 @@
+html {
+  font-family: Georgia, serif;
+  font-size: 1.125em;
+  line-height: 1.333em;
+}
+
+#header{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: black;
+  text-align: left;
+  margin: auto;
+}
+
+h1 {
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+	color: #000066; /*navy blue*/ 
+	text-align: center;
+	width: 50%;
+	margin: auto;
+    padding-top: 1.333em;
+}
+
+#navigation ul,
+#navigation li {
+  display: block;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.2em;
+  padding-right: 0.8em;
+  background-color: #BDF0FF; /*light blue */
+}
+
 body {
-	background-color: #FFF5C2;
+	background-color: #FFF5C2; /*beige*/ 
 	background-size: 1800px 900px;
 	background-repeat: repeat;
 	margin:0;
@@ -13,7 +45,7 @@ body.homepg {
 }
 
 body.bkpg {
-	background-color: #CCCCFF;
+	background-color: #CCCCFF; /*lilac*/ 
 	background-size: 1800px 900px;
 	background-repeat: repeat;
 	margin:0;
