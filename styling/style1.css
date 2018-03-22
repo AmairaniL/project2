@@ -96,6 +96,18 @@ li {
   padding-bottom: 0.222em;
 }
 
+section.extra li {
+  color: #000066; /*navy blue*/ 
+}
+
+section.first ul li {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #000066; /*navy blue*/ 
+  text-align: center;
+  margin: auto;
+  background-color: #8FB2FF; /*sky blue*/ 
+  list-style-type: none;
+}
 
 #navigation ul,
 #navigation li {
