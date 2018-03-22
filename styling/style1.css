@@ -100,7 +100,7 @@ section.extra li {
   color: #000066; /*navy blue*/ 
 }
 
-section.first ul li {
+div.info ul li {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   color: #000066; /*navy blue*/ 
   text-align: center;
@@ -197,6 +197,7 @@ img{
 }
 
 figcaption{
+  font-family: 'Comic Sans MS', cursive, sans-serif;	
   text-align: center;
   padding: 10px 20px;  
   border-style: ridge;
