@@ -20,6 +20,40 @@ h1 {
   padding-top: 1.333em;
 }
 
+ul {
+  font-size: 1.25em; 	
+  line-height: 1.75em ;
+  padding-left: 1.225em;
+  padding-right: 1.225em; 
+  color: black; 
+}
+ol {
+  font-size: 0.844em; 	
+  list-style-type: circle;
+  line-height: 1em ;
+  padding-bottom: 1.225em; 
+  padding-left: 1.5em; 
+  padding-right: 1.225em; 
+}
+ol li {
+  font-size: 0.844em; 
+  list-style-type: circle;
+  line-height: 1em ;
+  padding-bottom: 1.225em; 
+ 
+}
+ul li {
+  font-size: 0.844em; 
+  list-style-type: square;
+  line-height: 1.25em;
+  color: blue; /*bright blue*/
+}
+li {
+  font-size: 0.844em; 
+  list-style-type: none;
+  padding-bottom: 0.222em;
+}
+
 #navigation ul,
 #navigation li {
   display: block;
@@ -37,8 +71,8 @@ h1 {
 #navigation ul{
   position:fixed;
   opacity: .9;
-  horizontal-align:;
 }
+
 #navigation li {
     float: left;
 }
@@ -101,9 +135,39 @@ figcaption.pol{
   margin-bottom: 1.333em;
 }
 
-img {
+img{
   width: 100%;
   display: block;
   text-align: center;
   text-align: center;
+}
+
+figcaption{
+  text-align: center;
+  padding: 10px 20px;  
+  border-style: ridge;
+  border-width: 2px;
+  background-color:#82FFAB; /*aqua green*/
+  margin-bottom: 1.333em;
+}
+
+video{
+}
+
+#footer{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+#footer ul {
+  width: 100%;
+  background-color: #518adb; /*medium blue */
+  list-style-type: none;
+  opacity: .7;
+}
+
+#footer ul li {
+  width: 100%;
+  list-style-type: none;
 }
