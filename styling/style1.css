@@ -20,10 +20,53 @@ h1 {
   padding-top: 1.333em;
 }
 
+h2 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #000066; /*navy blue*/ 
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 1.333em;
+}
+
+div.font h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #000066; /*navy blue*/ 
+  text-align: center;
+  margin: auto;
+  padding-top: 1.333em;
+}
+
+section.extra h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #000066; /*navy blue*/ 
+  text-align: center;
+  margin: auto;
+  padding-top: 1.333em;
+}
+
+h3 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #000066; /*navy blue*/ 
+  text-align: left;
+  margin: auto;
+  padding-top: 1.333em;
+  padding-left: 2em;
+}
+
+div.font h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #000066; /*navy blue*/ 
+  text-align: left;
+  margin: auto;
+  padding-top: 1.333em;
+  padding-left: 2em;
+}
+
 ul {
   font-size: 1.25em; 	
   line-height: 1.75em ;
-  padding-left: 1.225em;
+  padding-left: 3em;
   padding-right: 1.225em; 
   color: black; 
 }
@@ -32,26 +75,38 @@ ol {
   list-style-type: circle;
   line-height: 1em ;
   padding-bottom: 1.225em; 
-  padding-left: 1.5em; 
-  padding-right: 1.225em; 
+  padding-left: 6em;  
 }
 ol li {
-  font-size: 0.844em; 
+  font-size: 1.2em; 
   list-style-type: circle;
-  line-height: 1em ;
-  padding-bottom: 1.225em; 
- 
+  line-height: 1em;
+  padding-bottom: 1.225em;  
 }
+
 ul li {
   font-size: 0.844em; 
   list-style-type: square;
   line-height: 1.25em;
-  color: blue; /*bright blue*/
+  color: blue; /*bright blue*/  
 }
 li {
   font-size: 0.844em; 
   list-style-type: none;
   padding-bottom: 0.222em;
+}
+
+section.extra li {
+  color: #000066; /*navy blue*/ 
+}
+
+div.info ul li {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #000066; /*navy blue*/ 
+  text-align: center;
+  margin: auto;
+  background-color: #8FB2FF; /*sky blue*/ 
+  list-style-type: none;
 }
 
 #navigation ul,
@@ -139,10 +194,10 @@ img{
   width: 100%;
   display: block;
   text-align: center;
-  text-align: center;
 }
 
 figcaption{
+  font-family: 'Comic Sans MS', cursive, sans-serif;	
   text-align: center;
   padding: 10px 20px;  
   border-style: ridge;
@@ -152,6 +207,10 @@ figcaption{
 }
 
 video{
+  width: 50%;
+  display: block;
+  text-align: center;
+  margin: auto;  
 }
 
 #footer{
