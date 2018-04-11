@@ -118,22 +118,28 @@ div.info ul li {
   padding-right: 0.8em;
   background-color: #BDF0FF; /*light blue */
   list-style-type: none;
-  float: left;
   width: 100%;
   overflow: hidden;
 }
 
+/* 
+Additional Edits on Navigation
+*/
+
 #navigation ul{
-  position:fixed;
+  position: fixed;
   opacity: .9;
+  text-align: center;
+  overflow: hidden;
 }
 
 #navigation li {
-    float: left;
+  list-style-type: none;
+  display: inline;
 }
 
 #navigation li a {
-  display: block;
+  display: inline-block;
   color: black;
   text-align: center;
   text-decoration: none;
@@ -172,7 +178,7 @@ body.respg{
 
 section.first{
   margin: auto;
-  padding-top: 6.666em; 
+  padding-top: 6.666em;  
 }
 
 figure.imgs{
