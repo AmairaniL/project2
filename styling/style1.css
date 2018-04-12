@@ -11,6 +11,15 @@ html {
   margin: auto;
 }
 
+header.homehead{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  margin: auto;
+  background-color: #8FB2FF;
+  padding-bottom: 1.333em;
+}
+
+
 h1 {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   color: #000066; /*navy blue*/ 
@@ -26,7 +35,6 @@ h2 {
   text-align: center;
   width: 50%;
   margin: auto;
-  padding-top: 1.333em;
 }
 
 div.font h2 {
@@ -34,7 +42,6 @@ div.font h2 {
   color: #000066; /*navy blue*/ 
   text-align: center;
   margin: auto;
-  padding-top: 1.333em;
 }
 
 section.extra h2 {
@@ -42,7 +49,6 @@ section.extra h2 {
   color: #000066; /*navy blue*/ 
   text-align: center;
   margin: auto;
-  padding-top: 1.333em;
 }
 
 h3 {
@@ -118,22 +124,28 @@ div.info ul li {
   padding-right: 0.8em;
   background-color: #BDF0FF; /*light blue */
   list-style-type: none;
-  float: left;
   width: 100%;
   overflow: hidden;
 }
 
+/* 
+Additional Edits on Navigation
+*/
+
 #navigation ul{
-  position:fixed;
+  position: fixed;
   opacity: .9;
+  text-align: center;
+  overflow: hidden;
 }
 
 #navigation li {
-    float: left;
+  list-style-type: none;
+  display: inline;
 }
 
 #navigation li a {
-  display: block;
+  display: inline-block;
   color: black;
   text-align: center;
   text-decoration: none;
@@ -162,6 +174,22 @@ body.bkpg {
   background-size: 1800px 900px;
   background-repeat: repeat;
   margin:0;
+  text-align: center;
+}
+
+section.bkpg h3{
+  color: #1E86EE; /*navy blue*/ 
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+}
+
+section.bkpg li{
+  color: #000066; /*navy blue*/ 
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+  font-family: 'Comic Sans MS', cursive, sans-serif;	
 }
 
 body.respg{
@@ -172,7 +200,7 @@ body.respg{
 
 section.first{
   margin: auto;
-  padding-top: 6.666em; 
+  padding-top: 5.666em;  
 }
 
 figure.imgs{
