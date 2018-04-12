@@ -11,6 +11,14 @@ html {
   margin: auto;
 }
 
+header.homehead{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  margin: auto;
+  background-color: #8FB2FF;
+  padding-bottom: 1.333em;
+}
+
 h1 {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   color: #000066; /*navy blue*/ 
@@ -26,7 +34,6 @@ h2 {
   text-align: center;
   width: 50%;
   margin: auto;
-  padding-top: 1.333em;
 }
 
 div.font h2 {
@@ -34,7 +41,6 @@ div.font h2 {
   color: #000066; /*navy blue*/ 
   text-align: center;
   margin: auto;
-  padding-top: 1.333em;
 }
 
 section.extra h2 {
@@ -42,7 +48,6 @@ section.extra h2 {
   color: #000066; /*navy blue*/ 
   text-align: center;
   margin: auto;
-  padding-top: 1.333em;
 }
 
 h3 {
@@ -178,7 +183,7 @@ body.respg{
 
 section.first{
   margin: auto;
-  padding-top: 6.666em;  
+  padding-top: 5.666em;  
 }
 
 figure.imgs{
