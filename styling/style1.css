@@ -19,6 +19,7 @@ header.homehead{
   padding-bottom: 1.333em;
 }
 
+
 h1 {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   color: #000066; /*navy blue*/ 
@@ -173,6 +174,22 @@ body.bkpg {
   background-size: 1800px 900px;
   background-repeat: repeat;
   margin:0;
+  text-align: center;
+}
+
+section.bkpg h3{
+  color: #1E86EE; /*navy blue*/ 
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+}
+
+section.bkpg li{
+  color: #000066; /*navy blue*/ 
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+  font-family: 'Comic Sans MS', cursive, sans-serif;	
 }
 
 body.respg{
